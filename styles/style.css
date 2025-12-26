@@ -1,1 +1,103 @@
+/* ../styles/style.css */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
+header {
+    padding: 20px;
+    border-bottom: 2px solid #0000ff;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0000ff;
+}
+
+main {
+    padding: 40px;
+}
+
+.hero h1, .about-section h1, .download-section h1 {
+    color: #00ffff;
+    font-size: 32px;
+    text-shadow: 0 0 10px #0000ff;
+}
+
+.features h2, .about-section h2, .download-section h2 {
+    color: #0000ff;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+pre code {
+    background-color: #111111;
+    border: 1px solid #0000ff;
+    padding: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    color: #00ffff;
+}
+
+.download-links {
+    margin: 20px 0;
+}
+
+.download-btn {
+    background: linear-gradient(to bottom, #00ffff, #0000ff);
+    color: #000000;
+    padding: 15px 30px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.download-btn:hover {
+    background: linear-gradient(to bottom, #0000ff, #00ffff);
+}
+
+footer {
+    background-color: #111111;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
