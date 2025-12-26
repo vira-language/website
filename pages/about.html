@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vira Lang - About</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="../images/vira-lang.png" alt="Vira Lang Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="download.html">Download</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-section">
+            <h1>About Vira Lang</h1>
+            <p>Vira Lang is a compiled programming language with syntax identical to C, making it easy for C developers to transition. It leverages modern tools for compilation, error diagnostics, and package management.</p>
+            <h2>Core Components</h2>
+            <ul>
+                <li><strong>Compiler:</strong> Built with Rust and Cranelift, compiles .vira files to object files.</li>
+                <li><strong>Preprocessor:</strong> Handles #include, #define, etc., similar to C.</li>
+                <li><strong>Parser & Semantic Checker (PLSA):</strong> Written in C++, ensures syntax and semantics are correct.</li>
+                <li><strong>Diagnostic Tool:</strong> Uses miette for beautiful error reporting.</li>
+                <li><strong>CLI Tools:</strong>
+                    <ul>
+                        <li><code>vira</code>: General CLI for compiling and updating.</li>
+                        <li><code>virac</code>: Dedicated compilation tool.</li>
+                        <li><code>virus</code>: Package manager inspired by Cargo, uses Podman for isolated builds with Wolfi base image.</li>
+                    </ul>
+                </li>
+                <li><strong>Updater:</strong> Checks GitHub for new versions and downloads updates.</li>
+            </ul>
+            <h2>Syntax Example</h2>
+            <pre><code>int main() {
+    return 0;
+}</code></pre>
+            <p>Vira Lang supports basic C constructs like functions, returns, binary operations, and more, with plans for full C compatibility.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Vira Lang. All rights reserved.</p>
+    </footer>
+</body>
+</html>
